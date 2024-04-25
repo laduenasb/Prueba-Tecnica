@@ -1,23 +1,30 @@
+/* Estilos para la tabla filtrada */
+
+/* Ajusta el ancho de la tabla al 100% del contenedor y colapsa los bordes de las celdas */
 .filteredTable {
   width: 100%;
   border-collapse: collapse;
 }
 
+/* Estilos para las celdas de encabezado y del cuerpo de la tabla */
 .filteredTable th,
 .filteredTable td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
+  border: 1px solid #ccc; /* Bordes de 1 píxel sólidos y color gris claro */
+  padding: 8px; /* Espaciado interno de 8 píxeles */
+  text-align: left; /* Alineación de texto a la izquierda */
 }
 
+/* Estilos para las celdas de encabezado */
 .filteredTable th {
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /* Fondo de color gris claro */
 }
 
+/* Estilos para las filas pares del cuerpo de la tabla */
 .filteredTable tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /* Fondo de color gris muy claro */
 }
 
+/* Estilos para las filas del cuerpo de la tabla cuando se realiza el hover */
 .filteredTable tbody tr:hover {
-  background-color: #ddd;
+  background-color: #ddd; /* Fondo de color gris claro cuando se realiza el hover */
 }

@@ -1,24 +1,29 @@
+/* Estilos para el contenedor principal del filtro */
 .filter {
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 20px; /* Añade relleno de 20 píxeles alrededor del contenido */
+  border: 1px solid #ccc; /* Borde de 1 píxel sólido con color gris claro */
+  border-radius: 5px; /* Borde redondeado con radio de 5 píxeles */
+  background-color: #f9f9f9; /* Fondo de color gris muy claro */
 }
 
+/* Estilos para el título dentro del contenedor del filtro */
 .filter h1 {
-  color: #333;
+  color: #333; /* Color de texto negro */
 }
 
+/* Estilos para las etiquetas de texto dentro del contenedor del filtro */
 .filter label {
-  font-weight: bold;
+  font-weight: bold; /* Texto en negrita */
 }
 
+/* Estilos para los elementos select y las entradas de texto dentro del contenedor del filtro */
 .filter select,
 .filter input[type="text"] {
-  margin: 5px;
-  padding: 5px;
+  margin: 5px; /* Margen de 5 píxeles alrededor del elemento */
+  padding: 5px; /* Relleno interno de 5 píxeles */
 }
 
+/* Estilos específicos para las entradas de texto dentro del contenedor del filtro */
 .filter input[type="text"] {
-  width: 200px;
+  width: 200px; /* Ancho fijo de 200 píxeles para las entradas de texto */
 }
