@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import EmployeesTable from '../components/EmployeesTable'
+import "./EmployeesDashboard.css" // Archivo de estilos del filtro
+
 
 export default function EmployeesDashboard() {
   const [employees, setEmployees] = useState([])
@@ -26,7 +28,7 @@ export default function EmployeesDashboard() {
     setSearchTerm(e.target.value);
   };
   return (
-    <div>
+    <div className='filter'>
       <h1>Employees List</h1>
       <div>
         <label htmlFor="filterField">Filter by:</label>

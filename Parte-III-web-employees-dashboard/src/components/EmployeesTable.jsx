@@ -1,4 +1,6 @@
 import React from 'react';
+import './EmployeesTable.css' // Archivo de estilos de la tabla
+
 
 export default function EmployeesTable({ employees, filterField, searchTerm }) {
   const filteredEmployees = employees.filter((employee) => {
@@ -14,7 +16,7 @@ export default function EmployeesTable({ employees, filterField, searchTerm }) {
 
   return (
     <div>
-      <table>
+      <table className='filteredTable'>
         <thead>
           <tr>
             <th>Name</th>

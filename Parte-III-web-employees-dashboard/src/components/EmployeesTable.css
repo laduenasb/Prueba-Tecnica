@@ -1,0 +1,23 @@
+.filteredTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.filteredTable th,
+.filteredTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.filteredTable th {
+  background-color: #f2f2f2;
+}
+
+.filteredTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.filteredTable tbody tr:hover {
+  background-color: #ddd;
+}
