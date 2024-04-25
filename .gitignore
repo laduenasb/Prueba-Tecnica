@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+Parte-III-web-employees-dashboard/node_modules
+Parte-III-web-employees-dashboard/.pnp
+Parte-III-web-employees-dashboard/.pnp.js
+
+# testing
+Parte-III-web-employees-dashboard/coverage
+
+# production
+Parte-III-web-employees-dashboard/build
+
+# misc
+Parte-III-web-employees-dashboard/.DS_Store
+Parte-III-web-employees-dashboard/.env.local
+Parte-III-web-employees-dashboard/.env.development.local
+Parte-III-web-employees-dashboard/.env.test.local
+Parte-III-web-employees-dashboard/.env.production.local
+
+Parte-III-web-employees-dashboard/npm-debug.log*
+Parte-III-web-employees-dashboard/yarn-debug.log*
+Parte-III-web-employees-dashboard/yarn-error.log*
