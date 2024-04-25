@@ -29,7 +29,7 @@ Parte-III-web-employees-dashboard/yarn-error.log*
 ### Ignore parte II
 
 Parte-II-API-academic-history/HELP.md
-Parte-II-API-academic-history/target/
+Parte-II-API-academic-history/target
 !Parte-II-API-academic-history/.mvn/wrapper/maven-wrapper.jar
 !Parte-II-API-academic-history/**/src/main/**/target/
 !Parte-II-API-academic-history/**/src/test/**/target/
