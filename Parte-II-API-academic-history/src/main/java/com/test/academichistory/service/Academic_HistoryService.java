@@ -10,6 +10,8 @@ import java.util.Optional;
 
 @Service
 public class Academic_HistoryService {
+
+  // Repositorio para acceder a los datos del historial académico en la base de datos
   @Autowired
   private Academic_HistoryRepository academic_HistoryRepository;
 
