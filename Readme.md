@@ -40,7 +40,13 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 ```
 
-Luego identificar 
+Luego identificar la clase main: **AcademicHistoryApplication** y ejecutar en la parte superior el proyecto.
+
+![alt text](./Parte-I-Bases-de-datos/intellij.png)
+
+Si todo sale bien en la parte inferior aparecera que el proyecto esta corriendo en el puerto 8083 y la cantidad de segundos que le tomo ejecutar el proyecto:
+
+![alt text](./Parte-I-Bases-de-datos/running.png)
 
 ## Link colección de endpoinst API parte III: 
 ## https://documenter.getpostman.com/view/23052515/2sA3BrZAjT
