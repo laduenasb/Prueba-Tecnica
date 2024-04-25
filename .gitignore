@@ -1,3 +1,5 @@
+### Ignote Parte III
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -22,3 +24,40 @@ Parte-III-web-employees-dashboard/.env.production.local
 Parte-III-web-employees-dashboard/npm-debug.log*
 Parte-III-web-employees-dashboard/yarn-debug.log*
 Parte-III-web-employees-dashboard/yarn-error.log*
+
+
+### Ignore parte II
+
+Parte-III-web-employees-dashboard/HELP.md
+Parte-III-web-employees-dashboard/target/
+!Parte-III-web-employees-dashboard/.mvn/wrapper/maven-wrapper.jar
+!Parte-III-web-employees-dashboard/**/src/main/**/target/
+!Parte-III-web-employees-dashboard/**/src/test/**/target/
+
+### STS ###
+Parte-III-web-employees-dashboard/.apt_generated
+Parte-III-web-employees-dashboard/.classpath
+Parte-III-web-employees-dashboard/.factorypath
+Parte-III-web-employees-dashboard/.project
+Parte-III-web-employees-dashboard/.settings
+Parte-III-web-employees-dashboard/.springBeans
+Parte-III-web-employees-dashboard/.sts4-cache
+
+### IntelliJ IDEA ###
+Parte-III-web-employees-dashboard/.idea
+Parte-III-web-employees-dashboard/*.iws
+Parte-III-web-employees-dashboard/*.iml
+Parte-III-web-employees-dashboard/*.ipr
+
+### NetBeans ###
+Parte-III-web-employees-dashboard/nbproject/private/
+Parte-III-web-employees-dashboard/nbbuild/
+Parte-III-web-employees-dashboard/dist/
+Parte-III-web-employees-dashboard/nbdist/
+Parte-III-web-employees-dashboard/.nb-gradle/
+Parte-III-web-employees-dashboard/build/
+!Parte-III-web-employees-dashboard/**/src/main/**/build/
+!Parte-III-web-employees-dashboard/**/src/test/**/build/
+
+### VS Code ###
+Parte-III-web-employees-dashboard/.vscode/
