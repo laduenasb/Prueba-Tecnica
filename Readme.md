@@ -20,7 +20,7 @@ En la siguiente imagen se observan algunas herramientas y partes de MySql Workbe
 
 Se crea al API para cada tabla, tomando en cuenta sus relaciones, se uso MySql como gestor de base de datos, Java 21 y springboot como framework.
 
-Para ejecutar el proyecto abrir en Intellij o VS Code la carpeta: Parte-II-API-academic-history. Luego abrir el aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el usuario y contraseña que se tenga configurado en MySqlWorkbench, el puerto no se modifica se deja en 8083, en MySqlWorkbench se crea el esquema universidad para que al ejecutar el proyecto springboot se pueda conectar a este:
+Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySqlWorkbench, el puerto no se modifica se deja en 8083, en MySqlWorkbench se crea el esquema **universidad** para que al ejecutar el proyecto springboot se pueda conectar a este:
 
 ## application.properties
 
@@ -39,6 +39,8 @@ spring.user.datasource.driver-class-name=com.mysql.jdbc.driver
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 spring.jpa.properties.hibernate.format_sql=true
 ```
+
+Luego identificar 
 
 ## Link colección de endpoinst API parte III: 
 ## https://documenter.getpostman.com/view/23052515/2sA3BrZAjT
