@@ -48,6 +48,14 @@ Si todo sale bien en la parte inferior aparecera que el proyecto esta corriendo 
 
 ![alt text](./Parte-I-Bases-de-datos/running.png)
 
+Para probar los endpoints de la API, a continuación se provee un link donde esta la documentación de la API en postman, despues dar clic en **Run in Postman** para importar la colección en la aplicación de escritorio. En postman aparecera lo siguiente:
+
+![alt text](./Parte-I-Bases-de-datos/postman.png)
+
+Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petición el cual aparece al dar clic en **Body** y luego **Raw***, en formato **JSON**
+
+![alt text](./Parte-I-Bases-de-datos/body.png)
+
 ## Link colección de endpoinst API parte III: 
 ## https://documenter.getpostman.com/view/23052515/2sA3BrZAjT
 
