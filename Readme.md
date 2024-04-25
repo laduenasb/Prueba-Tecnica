@@ -73,3 +73,7 @@ npm start
 ```
 
 ![alt text](./Parte-I-Bases-de-datos/comandos-terminal.png)
+
+Luego se abrira una ventana en el navegador donde estara la aplicación web, donde se podran filtrar por Name, Email y City:
+
+![alt text](./Parte-I-Bases-de-datos/app-react.png)
