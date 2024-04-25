@@ -2,6 +2,8 @@
 
 En la carpeta scripts hay 4 archivos numerados de 1 a 4. En 1 se crean las tablas y en 2 se cargan los datos iniciales de cada tabla, en 3 se realizan distintas consultas basicas(Insert, Select, Update y Delete) y en 4 se realizan consultas mas complejas usando join, union y case.
 
+Para ejecutar los scripts, primero crear un esquema llamado universidad en MySQL Workbench
+
 ## Diagrama relacional de la base de datos
 
 ![alt text](./Parte-I-Bases-de-datos/diagrama-base-datos.png)
