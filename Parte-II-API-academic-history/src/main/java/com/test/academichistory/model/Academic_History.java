@@ -17,14 +17,18 @@ public class Academic_History {
   private Long progress_id;
   @Column(nullable = false)
   private Integer year;
+  // El periodo puede ser 1, 2 o 3 no hay mas posibilidades
   @Column(nullable = false)
   @Min(value = 1, message = "El valor mínimo permitido es 1")
   @Max(value = 3, message = "El valor máximo permitido es 3")
   private Integer period;
+  // La nota solo tiene un digito despues del punto digital, por ejemplo: 3.5
   @Column(precision = 2, scale = 1, nullable = false)
   private BigDecimal note;
+  // Relación de uno a muchos entre student y academic_history
   @ManyToOne @JoinColumn(name="student_id")
   private Student student;
+  // Relación de uno a muchos entre course y academic_history
   @ManyToOne @JoinColumn(name="course_id")
   private Course course;
 
