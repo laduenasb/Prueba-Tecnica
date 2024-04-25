@@ -28,3 +28,10 @@
 .filteredTable tbody tr:hover {
   background-color: #ddd; /* Fondo de color gris claro cuando se realiza el hover */
 }
+
+
+/* Estilos para el contenedor de la tabla */
+.tableContainer {
+  overflow-x: auto; /* Añade scroll horizontal cuando el contenido excede el ancho del contenedor */
+  max-width: 100%; /* Limita el ancho máximo del contenedor al 100% del contenedor padre */
+}

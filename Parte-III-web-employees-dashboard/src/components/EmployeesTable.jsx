@@ -17,7 +17,7 @@ export default function EmployeesTable({ employees, filterField, searchTerm }) {
   });
 
   return (
-    <div>
+    <div className="tableContainer">
       <table className='filteredTable'>
         <thead>
           <tr>
