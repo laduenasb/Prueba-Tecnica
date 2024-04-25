@@ -28,36 +28,36 @@ Parte-III-web-employees-dashboard/yarn-error.log*
 
 ### Ignore parte II
 
-Parte-III-web-employees-dashboard/HELP.md
-Parte-III-web-employees-dashboard/target/
-!Parte-III-web-employees-dashboard/.mvn/wrapper/maven-wrapper.jar
-!Parte-III-web-employees-dashboard/**/src/main/**/target/
-!Parte-III-web-employees-dashboard/**/src/test/**/target/
+Parte-II-API-academic-history/HELP.md
+Parte-II-API-academic-history/target/
+!Parte-II-API-academic-history/.mvn/wrapper/maven-wrapper.jar
+!Parte-II-API-academic-history/**/src/main/**/target/
+!Parte-II-API-academic-history/**/src/test/**/target/
 
 ### STS ###
-Parte-III-web-employees-dashboard/.apt_generated
-Parte-III-web-employees-dashboard/.classpath
-Parte-III-web-employees-dashboard/.factorypath
-Parte-III-web-employees-dashboard/.project
-Parte-III-web-employees-dashboard/.settings
-Parte-III-web-employees-dashboard/.springBeans
-Parte-III-web-employees-dashboard/.sts4-cache
+Parte-II-API-academic-history/.apt_generated
+Parte-II-API-academic-history/.classpath
+Parte-II-API-academic-history/.factorypath
+Parte-II-API-academic-history/.project
+Parte-II-API-academic-history/.settings
+Parte-II-API-academic-history/.springBeans
+Parte-II-API-academic-history/.sts4-cache
 
 ### IntelliJ IDEA ###
-Parte-III-web-employees-dashboard/.idea
-Parte-III-web-employees-dashboard/*.iws
-Parte-III-web-employees-dashboard/*.iml
-Parte-III-web-employees-dashboard/*.ipr
+Parte-II-API-academic-history/.idea
+Parte-II-API-academic-history/*.iws
+Parte-II-API-academic-history/*.iml
+Parte-II-API-academic-history/*.ipr
 
 ### NetBeans ###
-Parte-III-web-employees-dashboard/nbproject/private/
-Parte-III-web-employees-dashboard/nbbuild/
-Parte-III-web-employees-dashboard/dist/
-Parte-III-web-employees-dashboard/nbdist/
-Parte-III-web-employees-dashboard/.nb-gradle/
-Parte-III-web-employees-dashboard/build/
-!Parte-III-web-employees-dashboard/**/src/main/**/build/
-!Parte-III-web-employees-dashboard/**/src/test/**/build/
+Parte-II-API-academic-history/nbproject/private/
+Parte-II-API-academic-history/nbbuild/
+Parte-II-API-academic-history/dist/
+Parte-II-API-academic-history/nbdist/
+Parte-II-API-academic-history/.nb-gradle/
+Parte-II-API-academic-history/build/
+!Parte-II-API-academic-history/**/src/main/**/build/
+!Parte-II-API-academic-history/**/src/test/**/build/
 
 ### VS Code ###
 Parte-III-web-employees-dashboard/.vscode/
