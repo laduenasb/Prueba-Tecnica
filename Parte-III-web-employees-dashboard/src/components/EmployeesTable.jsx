@@ -1,8 +1,10 @@
 import React from 'react';
-import './EmployeesTable.css' // Archivo de estilos de la tabla
+import './EmployeesTable.css' // Importa el archivo de estilos de la tabla
 
 
 export default function EmployeesTable({ employees, filterField, searchTerm }) {
+
+  // Filtra los empleados según el campo de filtro y el término de búsqueda
   const filteredEmployees = employees.filter((employee) => {
     if (filterField === 'name') {
       return employee.name.toLowerCase().includes(searchTerm.toLowerCase());
