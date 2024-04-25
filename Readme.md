@@ -59,4 +59,17 @@ Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petici
 
 ![alt text](./Parte-I-Bases-de-datos/body.png)
 
+# Parte III - Aplicación Web
 
+Para ejecutar el proyecto primero abrir la carpeta: **Parte-III-web-employees-dashboard** con visual studio code:
+
+![alt text](./Parte-I-Bases-de-datos/dashboard-react.png)
+
+Luego abrir una terminal en visual studio code y ejecutar los siguientes comandos:
+
+```bash
+npm install
+npm start
+```
+
+![alt text](./Parte-I-Bases-de-datos/comandos-terminal.png)
