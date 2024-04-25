@@ -34,4 +34,8 @@
 .tableContainer {
   overflow-x: auto; /* Añade scroll horizontal cuando el contenido excede el ancho del contenedor */
   max-width: 100%; /* Limita el ancho máximo del contenedor al 100% del contenedor padre */
+  background-color: #e5dae7; /* Color de fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 16px; /* Espaciado interno */
 }

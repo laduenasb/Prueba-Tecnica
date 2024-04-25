@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import EmployeesTable from '../components/EmployeesTable'
 import "./EmployeesDashboard.css" // Importa el archivo de estilos del filtro
 
@@ -10,6 +10,8 @@ export default function EmployeesDashboard() {
   const [filterField, setFilterField] = useState('name'); // Campo inicial para filtrar (por nombre)
   // Estado para almacenar el término de búsqueda ingresado por el usuario
   const [searchTerm, setSearchTerm] = useState(''); // Término de búsqueda
+  // Referencia al campo de búsqueda
+  const searchInputRef = useRef(null);
   // Hook useEffect para cargar la lista de empleados desde una API al montar el componente
   useEffect(()=>{
     const fetchEmployees = async ()=>{
@@ -26,8 +28,15 @@ export default function EmployeesDashboard() {
   }, [])
 
   // Función para manejar el cambio en el campo de filtro seleccionado
+  // const handleFilterChange = (e) => {
+  //   setFilterField(e.target.value);
+  // };
+
+  // Función para manejar el cambio en el campo de filtro seleccionado
   const handleFilterChange = (e) => {
     setFilterField(e.target.value);
+    // Enfocar el campo de búsqueda al cambiar el filtro
+    searchInputRef.current.focus();
   };
 
   // Función para manejar el cambio en el término de búsqueda ingresado por el usuario
@@ -37,7 +46,7 @@ export default function EmployeesDashboard() {
   return (
     <div className='filter'>
       <h1>Employees List</h1>
-      <div>
+      <header>
         <label htmlFor="filterField">Filter by:</label>
         <select id="filterField" value={filterField} onChange={handleFilterChange}>
           <option value="name">Name</option>
@@ -49,8 +58,9 @@ export default function EmployeesDashboard() {
           placeholder={`Search by ${filterField}`}
           value={searchTerm}
           onChange={handleSearchChange}
+          ref={searchInputRef} // Asigna la referencia al campo de búsqueda
         />
-      </div>
+      </header>
       {employees.length > 0 ? (
         <EmployeesTable employees={employees} filterField={filterField} searchTerm={searchTerm} />
       ) : (

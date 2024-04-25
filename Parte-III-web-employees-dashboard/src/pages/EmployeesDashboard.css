@@ -3,7 +3,13 @@
   padding: 20px; /* Añade relleno de 20 píxeles alrededor del contenido */
   border: 1px solid #ccc; /* Borde de 1 píxel sólido con color gris claro */
   border-radius: 5px; /* Borde redondeado con radio de 5 píxeles */
-  background-color: #f9f9f9; /* Fondo de color gris muy claro */
+  background-color: #ffcfbf; /* Fondo de color gris muy claro */
+}
+
+/* Estilos para el filtro*/
+
+.filter header {
+  margin-bottom: 10px; /* Separación entre el filtro y la tabla */
 }
 
 /* Estilos para el título dentro del contenedor del filtro */
@@ -21,6 +27,7 @@
 .filter input[type="text"] {
   margin: 5px; /* Margen de 5 píxeles alrededor del elemento */
   padding: 5px; /* Relleno interno de 5 píxeles */
+  border-radius: 8px;
 }
 
 /* Estilos específicos para las entradas de texto dentro del contenedor del filtro */
