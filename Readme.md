@@ -48,7 +48,7 @@ Si todo sale bien en la parte inferior aparecera que el proyecto esta corriendo 
 
 ![alt text](./Parte-I-Bases-de-datos/running.png)
 
-Para probar los endpoints de la API, a continuación se provee un link donde esta la documentación de la API en postman, despues dar clic en **Run in Postman** para importar la colección en la aplicación de escritorio. En postman aparecera lo siguiente:
+Para probar los endpoints de la API, a continuación se provee un link donde esta la documentación de la API en postman, despues dar clic en **Run in Postman** para importar la colección en la aplicación de escritorio, selección My Workspace y luego importar. En postman aparecera lo siguiente:
 
 ![alt text](./Parte-I-Bases-de-datos/postman.png)
 
