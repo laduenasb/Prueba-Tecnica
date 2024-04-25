@@ -1,3 +1,5 @@
+Para ejecutar este proyecto primero clonar este repositorio y abrir la respectiva carpeta, los pasos de cada carpeta se dan a continuación.
+
 # Parte I Bases de datos
 
 Se eligieron tres tablas course, student y academic_history, esta base de datos almacena historias academicas de los estudiantes que incriben materias en un año, el periodo pueder ser 1, 2 o 3. Un estudiante puede inscribir muchos cursos y un curso puede tener muchos estudiantes(relación de muchos a muchos), por lo que se agrega la tabla de historia academica entre ambas normalizando la relación.
