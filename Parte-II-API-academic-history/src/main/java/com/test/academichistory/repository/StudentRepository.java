@@ -10,6 +10,7 @@ import java.util.Optional;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
+  // Se agrega la consulta para encontrar a un estudiante por el card_id(es unico como la cedula)
   @Query(value = "SELECT * FROM student s WHERE s.card_id=?1", nativeQuery = true)
   Optional<Student> findByCard_id(Long card_id);
 }
