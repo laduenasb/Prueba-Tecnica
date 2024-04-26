@@ -29,13 +29,13 @@ INSERT INTO student (card_id, first_name, last_name, age, career) VALUES
 
 INSERT INTO academic_history (year, period, note, student_id, course_id) VALUES
 (2023, 1, 3.5, 1, 1),
-(2023, 2, 4, 2, 2),
+(2023, 2, 4, 3, 2),
 (2023, 3, 3, 3, 3),
-(2023, 2, 4, 4, 4),
+(2023, 2, 2.9, 4, 4),
 (2024, 1, 3.7, 5, 5),
 (2024, 1, 4, 6, 8),
 (2024, 3, 3.2, 7, 4),
 (2024, 2, 3.9, 8, 3),
-(2025, 3, 3.8, 9, 5),
+(2025, 3, 2.8, 7, 5),
 (2025, 1, 3.5, 10, 6);
 

@@ -26,11 +26,12 @@ LEFT JOIN course c ON ah.course_id = c.course_id;
 -- Esta consulta muestra el nombre del estudiante y el nombre del curso 
 -- al que se ha inscrito cada estudiante. Si un curso no tiene estudiantes inscritos, 
 -- se mostrará "Ningún estudiante" como nombre del estudiante.
+-- si el estudiante no se ha inscrito a ningun curso saldra null en el nombre del curso
 
 SELECT c.name AS course_name,
        CASE
            WHEN s.first_name IS NOT NULL THEN s.first_name
-           ELSE 'Ningún estudiante'
+           ELSE 'Ningun estudiante'
        END AS student_name
 FROM course c
 RIGHT JOIN academic_history ah ON c.course_id = ah.course_id
