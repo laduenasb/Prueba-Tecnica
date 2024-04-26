@@ -11,7 +11,7 @@ En la carpeta scripts hay 4 archivos numerados de 1 a 4.
 - En 3 se realizan distintas consultas basicas(Insert, Select, Update y Delete)
 - En 4 se realizan consultas mas complejas usando join, union y case.
 
-Para ejecutar los scripts, primero debe crear un esquema con el nombre **universidad**:
+Para ejecutar los scripts, primero debe crear un esquema con el nombre **university*:
 
 ![alt text](./Parte-I-Bases-de-datos/esquema-universidad.png)
 
@@ -32,13 +32,13 @@ Se crea la API para cada tabla, tomando en cuenta sus relaciones, se uso:
 - SpringBoot como framework
 - IntelliJ IDEA como editor de codigo
 
-Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el archivo aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySQL Workbench, el puerto no se modifica se deja en 8083, en MySQL Workbench se crea el esquema **universidad** para que al ejecutar el proyecto springboot se pueda conectar a este:
+Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el archivo aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySQL Workbench, el puerto no se modifica se deja en 8083, en MySQL Workbench se crea el esquema **university** para que al ejecutar el proyecto springboot se pueda conectar a este:
 
 ## application.properties
 
 ```
 server.port:8083
-spring.datasource.url = jdbc:mysql://127.0.0.1:3306/universidad
+spring.datasource.url = jdbc:mysql://127.0.0.1:3306/university
 spring.datasource.username=usuario
 spring.datasource.password=contresenia
 # Show or not log for each sql query
