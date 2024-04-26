@@ -94,3 +94,5 @@ npm start
 Luego se abrira una ventana en el navegador donde estara la aplicación web, donde se podran filtrar por Name, Email y City:
 
 ![alt text](./img-readme/app-react.png)
+
+Con lo anterior se da por finalizada la prueba técnica en su totalidad.
