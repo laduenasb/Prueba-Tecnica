@@ -15,7 +15,7 @@ Para ejecutar los scripts, primero debe crear un esquema con el nombre **univers
 
 ![alt text](./Parte-I-Bases-de-datos/esquema-universidad.png)
 
-En la siguiente imagen se observan algunas herramientas y partes de MySql Workbench:
+En la siguiente imagen se observan algunas herramientas y partes de MySQL Workbench:
 
 ![alt text](./Parte-I-Bases-de-datos/mysql-workbench.png)
 
