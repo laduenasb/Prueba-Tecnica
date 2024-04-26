@@ -78,6 +78,8 @@ Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petici
 
 # Parte III - Aplicación Web
 
+Se utilizo la biblioteca de React para hacer la aplicación web y Visual Studio Code como editor de código.
+
 Para ejecutar el proyecto primero abrir la carpeta: **Parte-III-web-employees-dashboard** con visual studio code:
 
 ![alt text](./img-readme/dashboard-react.png)
