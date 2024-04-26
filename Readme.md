@@ -13,15 +13,15 @@ En la carpeta scripts hay 4 archivos numerados de 1 a 4.
 
 Para ejecutar los scripts, primero debe crear un esquema con el nombre **university**:
 
-![alt text](./Parte-I-Bases-de-datos/esquema-universidad.png)
+![alt text](./img-readme/esquema-universidad.png)
 
 En la siguiente imagen se observan algunas herramientas y partes de MySQL Workbench:
 
-![alt text](./Parte-I-Bases-de-datos/mysql-workbench.png)
+![alt text](./img-readme/mysql-workbench.png)
 
 ## Diagrama relacional de la base de datos
 
-![alt text](./Parte-I-Bases-de-datos/diagrama-base-datos.png)
+![alt text](./img-readme/diagrama-base-datos.png)
 
 # Parte II API - Academic History
 
@@ -55,28 +55,28 @@ spring.jpa.properties.hibernate.format_sql=true
 
 Luego identificar la clase main: **AcademicHistoryApplication** y ejecutar en la parte superior el proyecto.
 
-![alt text](./Parte-I-Bases-de-datos/intellij.png)
+![alt text](./img-readme/intellij.png)
 
 Si todo sale bien en la parte inferior aparecera que el proyecto esta corriendo en el puerto 8083 y la cantidad de segundos que le tomo ejecutar el proyecto:
 
-![alt text](./Parte-I-Bases-de-datos/running.png)
+![alt text](./img-readme/running.png)
 
 ## Link colección de endpoinst API parte II: 
 ## https://documenter.getpostman.com/view/23052515/2sA3BrZAjT
 
 Para probar los endpoints de la API, a continuación se provee un link donde esta la documentación de la API en postman, despues dar clic en **Run in Postman** para importar la colección en la aplicación de escritorio, selección My Workspace y luego importar. En postman aparecera lo siguiente:
 
-![alt text](./Parte-I-Bases-de-datos/postman.png)
+![alt text](./img-readme/postman.png)
 
 Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petición el cual aparece al dar clic en **Body** y luego **Raw**, en formato **JSON**
 
-![alt text](./Parte-I-Bases-de-datos/body.png)
+![alt text](./img-readme/body.png)
 
 # Parte III - Aplicación Web
 
 Para ejecutar el proyecto primero abrir la carpeta: **Parte-III-web-employees-dashboard** con visual studio code:
 
-![alt text](./Parte-I-Bases-de-datos/dashboard-react.png)
+![alt text](./img-readme/dashboard-react.png)
 
 Luego abrir una terminal en visual studio code y ejecutar los siguientes comandos:
 
@@ -85,8 +85,8 @@ npm install
 npm start
 ```
 
-![alt text](./Parte-I-Bases-de-datos/comandos-terminal.png)
+![alt text](./img-readme/comandos-terminal.png)
 
 Luego se abrira una ventana en el navegador donde estara la aplicación web, donde se podran filtrar por Name, Email y City:
 
-![alt text](./Parte-I-Bases-de-datos/app-react.png)
+![alt text](./img-readme/app-react.png)
