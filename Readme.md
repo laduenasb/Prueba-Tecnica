@@ -13,7 +13,7 @@ En la carpeta scripts hay 4 archivos numerados de 1 a 4.
 
 Para ejecutar los scripts, primero debe crear un esquema con el nombre **university**:
 
-![alt text](./img-readme/esquema-universidad.png)
+![alt text](./Parte-I-Bases-de-datos/esquema-universidad.png)
 
 En la siguiente imagen se observan algunas herramientas y partes de MySQL Workbench:
 
