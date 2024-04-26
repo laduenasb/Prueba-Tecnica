@@ -19,6 +19,10 @@ En la siguiente imagen se observan algunas herramientas y partes de MySQL Workbe
 
 ![alt text](./img-readme/mysql-workbench.png)
 
+## Modelo entidad relación entre course y student
+
+![alt text](./img-readme/modelo-entidad-relacion.png)
+
 ## Diagrama relacional de la base de datos
 
 ![alt text](./img-readme/diagrama-base-datos.png)
