@@ -72,7 +72,7 @@ Para probar los endpoints de la API, a continuación se provee un link donde est
 
 ![alt text](./img-readme/postman.png)
 
-Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petición el cual aparece al dar clic en **Body** y luego **Raw**, en formato **JSON**
+Para las peticiones tipo **Post** y **Put**, estas llevan un cuerpo en la petición el cual aparece al dar clic en **Body** y luego **raw**, en formato **JSON**
 
 ![alt text](./img-readme/body.png)
 
