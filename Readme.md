@@ -4,7 +4,12 @@ Para ejecutar este proyecto primero clonar este repositorio y abrir la respectiv
 
 Se eligieron tres tablas course, student y academic_history, esta base de datos almacena historias academicas de los estudiantes que incriben materias en un año, el periodo pueder ser 1, 2 o 3. Un estudiante puede inscribir muchos cursos y un curso puede tener muchos estudiantes(relación de muchos a muchos), por lo que se agrega la tabla de historia academica entre ambas normalizando la relación.
 
-En la carpeta scripts hay 4 archivos numerados de 1 a 4. En 1 se crean las tablas y en 2 se cargan los datos iniciales de cada tabla, en 3 se realizan distintas consultas basicas(Insert, Select, Update y Delete) y en 4 se realizan consultas mas complejas usando join, union y case.
+En la carpeta scripts hay 4 archivos numerados de 1 a 4. 
+
+- En 1 se crean las tablas
+- En 2 se cargan los datos iniciales de cada tabla
+- En 3 se realizan distintas consultas basicas(Insert, Select, Update y Delete)
+- En 4 se realizan consultas mas complejas usando join, union y case.
 
 Para ejecutar los scripts, primero debe crear un esquema con el nombre **universidad**:
 
@@ -20,9 +25,14 @@ En la siguiente imagen se observan algunas herramientas y partes de MySql Workbe
 
 # Parte II API - Academic History
 
-Se crea al API para cada tabla, tomando en cuenta sus relaciones, se uso MySql como gestor de base de datos, Java 21 y springboot como framework.
+Se crea la API para cada tabla, tomando en cuenta sus relaciones, se uso:
 
-Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySqlWorkbench, el puerto no se modifica se deja en 8083, en MySqlWorkbench se crea el esquema **universidad** para que al ejecutar el proyecto springboot se pueda conectar a este:
+- MySQL como gestor de base de datos
+- Java 21 como lenguage de programación
+- SpringBoot como framework
+- IntelliJ IDEA como editor de codigo
+
+Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el archivo aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySQL Workbench, el puerto no se modifica se deja en 8083, en MySQL Workbench se crea el esquema **universidad** para que al ejecutar el proyecto springboot se pueda conectar a este:
 
 ## application.properties
 
@@ -50,7 +60,7 @@ Si todo sale bien en la parte inferior aparecera que el proyecto esta corriendo 
 
 ![alt text](./Parte-I-Bases-de-datos/running.png)
 
-## Link colección de endpoinst API parte III: 
+## Link colección de endpoinst API parte II: 
 ## https://documenter.getpostman.com/view/23052515/2sA3BrZAjT
 
 Para probar los endpoints de la API, a continuación se provee un link donde esta la documentación de la API en postman, despues dar clic en **Run in Postman** para importar la colección en la aplicación de escritorio, selección My Workspace y luego importar. En postman aparecera lo siguiente:
