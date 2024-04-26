@@ -31,6 +31,7 @@ Se crea la API para cada tabla, tomando en cuenta sus relaciones, se uso:
 - Java 21 como lenguage de programación
 - SpringBoot como framework
 - IntelliJ IDEA como editor de codigo
+- Postman para consumir la API
 
 Para ejecutar el proyecto abrir en Intellij la carpeta: Parte-II-API-academic-history. Luego abrir el archivo aplication.properties, que se encuentra en la ruta src/main/resources, se va a colocar el **usuario** y **contraseña** que se tenga configurado en MySQL Workbench, el puerto no se modifica se deja en 8083, en MySQL Workbench se crea el esquema **university** para que al ejecutar el proyecto springboot se pueda conectar a este:
 
